@@ -16,12 +16,13 @@
 --cor4: hsl(218, 44%, 22%);
 }
 body{
-    background-color: var(--cor2);
+    background-color: blue;
     width: auto;
 }
 .prin{
     margin: 250px auto;
-    background-color: rgb(51, 73, 192);
+    background-color: white;
+    color: blue;
     background-repeat: no-repeat;
     width: 400px;
     text-align: center;
@@ -36,7 +37,8 @@ body{
 }
 .letter{
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 900;
+    font: bold;
     color: var(--cor4);
     margin-bottom: 15px;
     max-width: 350px;
